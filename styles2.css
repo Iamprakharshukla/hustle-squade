@@ -1,0 +1,188 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #d97878;
+    background-color: #f4f4f4;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #da6868; /* Black background */
+    color: #fff; /* White text */
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .subheading {
+    font-size: 1.2rem;
+    color: #ccc; /* Light gray for subheading */
+}
+
+/* Properties Section */
+#properties {
+    background-color: #fff; /* White background */
+    padding: 60px 0;
+}
+
+#properties h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #b65f5f; /* Black color for headings */
+}
+
+/* Slick Slider Overrides */
+.slick-slide {
+    padding: 0 10px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: #ca6d6d; /* Black arrows */
+}
+
+/* Property Card Styles */
+.property {
+    background-color: #f9f9f9; /* Very light gray for property background */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.property img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.property-details {
+    padding: 20px;
+    background-color: #fff; /* White background for details */
+}
+
+.property-details .price {
+    font-size: 1.5rem;
+    color: #de7878; /* Black price */
+    margin-bottom: 10px;
+}
+
+.property-details .beds,
+.property-details .baths,
+.property-details .sqft {
+    display: inline-block;
+    background-color: #eee; /* Light gray background for badges */
+    color: #333; /* Dark gray text */
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.property-details address {
+    display: block;
+    font-style: normal;
+    color: #666; /* Medium gray for address */
+    margin-top: 10px;
+}
+
+/* Hover Effects for Property Cards */
+.property:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .slick-slide {
+        padding: 0 5px;
+    }
+
+    .property-details .beds,
+    .property-details .baths,
+    .property-details .sqft {
+        display: block;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 30px 0;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header .subheading {
+        font-size: 1rem;
+    }
+
+    #properties h2 {
+        font-size: 1.8rem;
+    }
+
+    .property-details .price {
+        font-size: 1.3rem;
+    }
+
+    .property-details .beds,
+    .property-details .baths,
+    .property-details .sqft {
+        font-size: 0.8rem;
+        padding: 4px 8px;
+    }
+
+    .property img {
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    #properties h2 {
+        font-size: 1.5rem;
+    }
+
+    .property-details .price {
+        font-size: 1.2rem;
+    }
+
+    .property img {
+        height: 120px;
+    }
+}

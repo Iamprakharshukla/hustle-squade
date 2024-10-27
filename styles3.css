@@ -1,0 +1,58 @@
+#agents {
+    background: linear-gradient(to right, #fcfbfb, #f6f6f4); /* Gradient background */
+    color: rgb(213, 124, 124); /* Text color */
+    padding: 40px 0; /* Top and bottom padding */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px 0; /* Margin around the section */
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px; /* Larger heading */
+    text-shadow: 2px 2px 5px rgba(129, 5, 5, 0.689); /* Text shadow for depth */
+}
+
+.large-paragraph {
+    text-align: center;
+    margin-bottom: 30px; /* Spacing below the paragraph */
+    font-size: 18px; /* Paragraph font size */
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+    justify-content: center; /* Center cards horizontally */
+}
+
+.card {
+    background-color: rgba(15, 14, 14, 0.9); /* Semi-transparent white background */
+    border-radius: 15px; /* Rounded corners */
+    margin: 15px; /* Space between cards */
+    padding: 20px; /* Padding inside cards */
+    width: 200px; /* Fixed width */
+    text-align: center; /* Center text */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.card img {
+    width: 100px; /* Set a consistent image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular images */
+    border: 3px solid #000000; /* Border color matching theme */
+    margin-bottom: 15px; /* Spacing below the image */
+}
+
+.card h3 {
+    font-size: 20px; /* Heading font size */
+    margin: 10px 0; /* Margin around heading */
+}
+
+.card p {
+    font-size: 16px; /* Paragraph font size */
+    margin: 5px 0; /* Margin around paragraph */
+}

@@ -1,0 +1,76 @@
+#contact {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 40px 0; /* Top and bottom padding */
+    text-align: center; /* Center text */
+}
+
+h2 {
+    font-size: 36px; /* Heading size */
+    margin-bottom: 20px; /* Spacing below heading */
+    color: #333; /* Dark color for text */
+}
+
+.contact-description {
+    font-size: 18px; /* Description font size */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 30px; /* Spacing below description */
+}
+
+.contact-info {
+    display: flex; /* Flex layout for contact details and form */
+    justify-content: space-between; /* Space between elements */
+    align-items: flex-start; /* Align items at the start */
+    max-width: 1000px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Padding for container */
+    background-color: #ffffff; /* White background for contact box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+.contact-details {
+    flex: 1; /* Take up space proportionately */
+    margin-right: 20px; /* Space between details and form */
+    text-align: left; /* Left-align text */
+}
+
+.contact-details h3 {
+    font-size: 24px; /* Subheading size */
+    color: #FF5733; /* Color matching theme */
+    margin-bottom: 15px; /* Spacing below subheading */
+}
+
+.contact-details p {
+    font-size: 16px; /* Text size */
+    color: #777; /* Lighter text color */
+    margin-bottom: 10px; /* Spacing below paragraph */
+}
+
+.contact-form {
+    flex: 2; /* Take up more space */
+    display: flex; /* Flex layout for form */
+    flex-direction: column; /* Vertical layout */
+}
+
+.contact-form input, 
+.contact-form textarea {
+    padding: 10px; /* Padding for inputs */
+    margin-bottom: 15px; /* Spacing between inputs */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+.submit-button {
+    background-color: #FF5733; /* Button color */
+    color: #ffffff; /* Text color */
+    padding: 10px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.submit-button:hover {
+    background-color: #e0522d; /* Darker color on hover */
+}

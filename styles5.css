@@ -1,0 +1,67 @@
+#news {
+    background-color: #ffffff; /* White background for the news section */
+    padding: 40px 0; /* Top and bottom padding */
+    text-align: center; /* Center text */
+}
+
+h2 {
+    font-size: 36px; /* Heading size */
+    margin-bottom: 20px; /* Spacing below heading */
+    color: #333; /* Dark color for text */
+}
+
+.news-description {
+    font-size: 18px; /* Description font size */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 30px; /* Spacing below description */
+}
+
+.news-grid {
+    display: grid; /* Grid layout for news cards */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Spacing between cards */
+}
+
+.news-card {
+    background-color: #f8f9fa; /* Light background for news cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    transition: transform 0.2s; /* Transition for hover effect */
+}
+
+.news-card:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+
+.news-card img {
+    width: 100%; /* Responsive image */
+    border-radius: 10px; /* Rounded corners for images */
+    margin-bottom: 15px; /* Spacing below the image */
+}
+
+.news-card h3 {
+    font-size: 24px; /* Title size */
+    color: #FF5733; /* Color matching theme */
+    margin-bottom: 10px; /* Spacing below title */
+}
+
+.news-card p {
+    font-size: 16px; /* Description font size */
+    color: #777; /* Lighter text color */
+    margin-bottom: 15px; /* Spacing below paragraph */
+}
+
+.read-more {
+    display: inline-block; /* Button style */
+    padding: 10px 20px; /* Padding for button */
+    background-color: #FF5733; /* Button color */
+    color: #ffffff; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* No underline */
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.read-more:hover {
+    background-color: #e0522d; /* Darker color on hover */
+}

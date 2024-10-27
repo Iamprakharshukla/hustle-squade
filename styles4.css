@@ -1,0 +1,81 @@
+#about {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 40px 0; /* Top and bottom padding */
+    text-align: center; /* Center text */
+}
+
+h2 {
+    font-size: 36px; /* Heading size */
+    margin-bottom: 20px; /* Spacing below heading */
+    color: #333; /* Dark color for text */
+}
+
+.about-description {
+    font-size: 18px; /* Description font size */
+    color: #555; /* Slightly lighter text color */
+    margin-bottom: 30px; /* Spacing below description */
+}
+
+.about-values {
+    display: flex; /* Flex layout for value cards */
+    justify-content: center; /* Center align cards */
+    flex-wrap: wrap; /* Wrap cards on smaller screens */
+    gap: 20px; /* Spacing between cards */
+    margin-bottom: 40px; /* Spacing below value section */
+}
+
+.value-card {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    width: 250px; /* Fixed width for cards */
+}
+
+.value-card h3 {
+    font-size: 24px; /* Value title size */
+    color: #FF5733; /* Color matching theme */
+    margin-bottom: 10px; /* Spacing below title */
+}
+
+.value-card p {
+    font-size: 16px; /* Description font size */
+    color: #777; /* Lighter text color */
+}
+
+.team-section {
+    margin-top: 40px; /* Spacing above team section */
+}
+
+.team-cards {
+    display: flex; /* Flex layout for team members */
+    justify-content: center; /* Center align team members */
+    gap: 30px; /* Spacing between team members */
+    flex-wrap: wrap; /* Wrap members on smaller screens */
+}
+
+.team-member {
+    background-color: #ffffff; /* White background for team members */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    width: 180px; /* Fixed width for team member cards */
+    text-align: center; /* Center align text */
+}
+
+.team-member img {
+    width: 100px; /* Set a consistent image size */
+    height: 100px; /* Set a consistent image size */
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 10px; /* Spacing below the image */
+}
+
+.team-member h3 {
+    font-size: 18px; /* Team member name size */
+    color: #333; /* Dark color for text */
+}
+
+.team-member p {
+    font-size: 14px; /* Team member role size */
+    color: #777; /* Lighter text color */
+}

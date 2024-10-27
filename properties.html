@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties for Sale</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Buy Your Properties</h1>
+            <p class="subheading">Make a smart investment—secure your future with the right property!</p>
+        </div>
+    </header>
+
+    <section id="properties">
+        <div class="container">
+            <h2>Properties</h2>
+            <div id="properties-slider" class="slick">
+                <div class="property">
+                    <img src="https://img.freepik.com/free-photo/luxury-pool-villa-spectacular-contemporary-design-digital-art-real-estate-home-house-property-ge_1258-150755.jpg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">INR 3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>480 12th, Unit 14, Ghaziabad, UP</address>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <img src="https://t4.ftcdn.net/jpg/03/70/64/43/360_F_370644357_MDF4UXLAXTyyi2OyuK66tWW9cA2f8svL.jpg" alt="Property 2" />
+                    <div class="property-details">
+                        <p class="price">INR 4,400,000</p>
+                        <span class="beds">7 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">5200 sqft.</span>
+                        <address> Birahna Road,Kanpur,UP</address>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <img src="https://media.istockphoto.com/id/503044702/photo/illuminated-sky-and-outside-of-waterfront-buiding.jpg?s=612x612&w=0&k=20&c=xkDBkqmCVvhR4idfybXRb-yFS0KqOjqtikg_LtO4pzs=" alt="Property 3" />
+                    <div class="property-details">
+                        <p class="price">INR 3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,150 sqft.</span>
+                        <address>Aligarh, UP</address>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60PA1G-ZydKXGSh-4iRlr0hmvFALozDA2_Q&s" alt="Property 4" />
+                    <div class="property-details">
+                        <p class="price">INR 4,800,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">5,550 sqft.</span>
+                        <address>Ayodhya</address>
+                    </div>
+                </div>
+
+                <div class="property">
+                    <img src="https://www.buildofy.com/blog/content/images/2024/01/23-06-30-Gautham-Residence-122-1.jpg" alt="Property 5" />
+                    <div class="property-details">
+                        <p class="price">INR 9,400,000</p>
+                        <span class="beds">9 beds</span>
+                        <span class="baths">6 baths</span>
+                        <span class="sqft">8,250 sqft.</span>
+                        <address>Noida, UP</address>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Real Estate Company. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#properties-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll:1,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                dots: true,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow:1,
+                        }
+                    },
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow:2,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    
+</body>
+</html>

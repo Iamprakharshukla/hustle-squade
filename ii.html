@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EstateXplorer</title>
+    <link rel="stylesheet" href="sty.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+            
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 id="rotate">Estate Xplorer</h1>
+
+    <script>
+        const heading = document.getElementById("rotate");
+        let rotation = 0;
+
+        heading.onclick = () => {
+            rotation += 45; 
+            heading.style.transform = `rotate(${rotation}deg)`;
+        };
+    </script>
+
+
+            <nav>
+                <ul>
+                    
+                    <li><a href="properties.html">Properties</a></li>
+                    <li><a href="agents.html" >Agents</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="animated-text">Find Your Perfect Home</h2>
+            <p>We connect you with the finest properties tailored to your needs.</p>
+            <button class="explore-button">Explore Now</button>
+        </div>
+    </section>
+    </section>
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="flex">
+                <div class="service-card">
+                    <h3>Search Property</h3>
+                    <p>Find the best properties that meet your requirements through our user-friendly search tools.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Buy Property</h3>
+                    <p>Expert assistance in purchasing your dream home with the best deals in the market.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Investing</h3>
+                    <p>Get professional guidance on real estate investments to maximize your returns.</p>
+                </div>
+                <div class="service-card">
+                    <h3>List a Property</h3>
+                    <p>Our team helps you showcase your property effectively to attract potential buyers.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Property Locator</h3>
+                    <p>We assist you in finding properties that perfectly fit your criteria and budget.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Stated Apps</h3>
+                    <p>Utilize our state-of-the-art applications for an enhanced property search experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Dream Homes Realty, we are dedicated to helping you find your dream home. Our experienced agents provide personalized service and expert advice to make your home buying or selling experience seamless and enjoyable. We pride ourselves on our integrity and our ability to match clients with properties that suit their lifestyle and needs.</p>
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <h2>Real Estate Insights</h2>
+            <article>
+                <h3>Understanding the Market in 2024</h3>
+                <p>Explore the current trends shaping the real estate landscape and what they mean for buyers and sellers alike.</p>
+            </article>
+            <article>
+                <h3>Top 5 Tips for First-Time Home Buyers</h3>
+                <p>Buying your first home can be overwhelming. Here are some essential tips to guide you through the process.</p>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 @ Esate Xplorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+</body>
+</html>
